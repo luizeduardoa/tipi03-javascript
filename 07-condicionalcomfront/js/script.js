@@ -1,9 +1,9 @@
 //comando DOM e evento de click
-document.getElementById("btnVerificar").addEventListener("click", verificar);
+document.getElementById("btnVerificar").addEventListener("click", Verificar);
 
 
 //Função
-function verificar(){
+function Verificar(){
     const input = document.getElementById("numero").value;
     const resultado = document.getElementById("resultado");
 
